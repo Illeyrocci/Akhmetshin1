@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MoviesInfo</string>
+    <string name="title_popular">Популярное</string>
+    <string name="title_chosen">Избранное</string>
+    <string name="search">Поиск</string>
+    <string name="movie_poster">movie_poster</string>
+    <string name="verbose">Подробности</string>
+    <string name="vote_count">Количество голосов :</string>
+    <string name="rf_critics">Рейтинг по гильдии кинокритиков России :</string>
+    <string name="film_critics">Рейтинг по Film Critics :</string>
+    <string name="imbd">Рейтинг по Imbd :</string>
+    <string name="Kinopoisk">Рейтинг по Кинопоиску :</string>
+    <string name="good_review">Рейтинг по Good Review :</string>
+    <string name="review_count">Количество рецензий :</string>
+    <string name="production_status">Статус производства :</string>
+    <string name="slogan">Слоган :</string>
+    <string name="in_3d">Есть в 3D :</string>
+    <string name="in_imax">Есть в Imax :</string>
+    <string name="link_kinopoisk">Ссылка на Кинопоиск :</string>
+    <string name="rating_age_limits">Возрастное ограничение :</string>
+    <string name="type">Тип :</string>
+    <string name="back_button">back_button</string>
+    <string name="poor_connection">poor_connection</string>
+    <string name="error_occured">Произошла ошибка при загрузке данных, проверьте подключение к сети</string>
+    <string name="repeat">Повторить</string>
+    <string name="not_found">Не найдено</string>
+    <string name="star">star</string>
+
+    <string name="genre_and_year">%1$s (%2$d)</string>
+</resources>

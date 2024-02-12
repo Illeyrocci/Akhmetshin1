@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_shimmer"
+        android:background="@color/gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/item_film_poster_shimmer"
+            android:background="@color/gray"
+            android:layout_width="47dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/movie_poster"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/item_title_shimmer"
+        android:background="@color/gray"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2_shimmer"
+        app:layout_constraintEnd_toStartOf="@+id/star_icon_shimmer"
+        app:layout_constraintStart_toEndOf="@+id/cardView_shimmer" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2_shimmer"
+        android:background="@color/gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/genre_year_shimmer"
+        android:background="@color/gray"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintEnd_toStartOf="@+id/star_icon_shimmer"
+        app:layout_constraintStart_toEndOf="@+id/cardView_shimmer"
+        app:layout_constraintTop_toTopOf="@+id/guideline2_shimmer" />
+
+    <ImageView
+        android:id="@+id/star_icon_shimmer"
+        android:background="@color/gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_star"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/item_title_shimmer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/item_title_shimmer"
+        android:contentDescription="@string/star" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
